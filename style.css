@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundDay  {
+  transition-property: background;
+  transition-duration: 3s;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  height: 100vh;
+  box-shadow: 10px -115px 5px blueviolet;
+}
+
+.watch  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  box-shadow: 5px 15px 7px rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.watch .time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-family: 'Poppins', sans-serif;
+  color: antiquewhite;
+  background: black;
+
+  padding: 1rem;
+  max-width: 10rem;
+  min-width: 10rem; 
+  border-radius: 0.5rem;
+    
+}
+
+.watch .time p {
+  font-size: 1.5rem;
+}
